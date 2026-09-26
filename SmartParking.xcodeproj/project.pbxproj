@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0025AF706664B07DF424B303 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E63D25F5B9D1E939AF7455 /* EditProfileView.swift */; };
+		017FAC70DF4812C79661521C /* BookingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A797CAFCE5FB2953608FD17 /* BookingsViewModel.swift */; };
+		065B8B5E1E400C2111F87A80 /* SignOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E7B7F459368CF31E0F4BB0 /* SignOutView.swift */; };
+		0B1477E8997CC6587835137A /* AvailabilityStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41036592D46D528E3088AD9 /* AvailabilityStatus.swift */; };
+		0CB15F65DFDBB4CC827FAC77 /* AuthContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F159634D44ABA6B87F95FD67 /* AuthContainerView.swift */; };
+		0CE35CD5A83D01D4605962CC /* ParkingDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8A74C325118D362C62A449 /* ParkingDetailsViewModel.swift */; };
+		0D928C2893E4524533F4EFB5 /* VehicleFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D81BB8BD15CD16F4FE0F38E /* VehicleFormView.swift */; };
+		0EB77BB3F30A9C503F365E08 /* ParkingLot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D71EED216D4FF5FA15085A /* ParkingLot.swift */; };
+		133485AE2F139ECCA28294C8 /* RepositoryProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756A1144EF988C3FE43F7CBD /* RepositoryProtocols.swift */; };
+		15A6AD56FADA743F6FA45F2E /* AddMoneyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E7A62A8DF063F6E0C7D2FC /* AddMoneyViewModel.swift */; };
+		16EE2274648A9F0AC4871F2D /* StateViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28180983680F5B99E072C50 /* StateViews.swift */; };
+		19C05CAAC64B339DA753E45E /* ParkingSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B5A7640A96869AC30A34B2 /* ParkingSlot.swift */; };
+		1D6EAA73C212FD3765FDF0D2 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C9DC29A665D7C35A75B1C /* ProfileViewModel.swift */; };
+		1F1831A908A92B019812F4B2 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58903AC176C29B4D8D6E59F6 /* CustomTabBar.swift */; };
+		21B21520CA8B26623D3ACD2C /* VehicleFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401CA7184EB7FC4F81195A39 /* VehicleFormViewModel.swift */; };
+		2DD82346C86F09AFBA94E7D6 /* AuthShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58E917C1BF68921448490E5 /* AuthShell.swift */; };
+		2E92D5F3FC9D4D0A3984E503 /* MockDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055630370D82919EC157933A /* MockDataStore.swift */; };
+		31B837CF95B30EA01A94CD49 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FEE8F9F2F4BDC28C2BB803 /* HomeViewModel.swift */; };
+		3837D5AE04AD76E48A181A4D /* AvailabilityBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4DCD3A3EC9FBFDB77676B5 /* AvailabilityBadge.swift */; };
+		3BEC9C8BD435AA6FD27F5C37 /* ParkingPassEntryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C74D342B12D5547363671 /* ParkingPassEntryViewModel.swift */; };
+		40E34753BBFB2E0F7184E631 /* BookingFlowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6597DC88717AB3D2E418F69 /* BookingFlowViewModel.swift */; };
+		421E523B9D0D201E5B849835 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F474761AAD399530231CDD1A /* AppState.swift */; };
+		43CEB6A9B848995D79BA40A2 /* BookingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B22D1BAAD8B080B22350F1 /* BookingDetailView.swift */; };
+		4400E729C8DE377EFD9EDD7B /* GuestRestriction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A8B1A5FD58D3E3FF688F9 /* GuestRestriction.swift */; };
+		478E975BE73DB2E14A9F79CA /* MockUserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ADEFEABECB2EDC0E686639 /* MockUserRepository.swift */; };
+		4903422A09A1B78A77CEDED2 /* SmartParkingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57417A1C59B2AF969E87A02 /* SmartParkingApp.swift */; };
+		540EF8B7333F01F0C15BAD00 /* DateFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE416DABD9159BCBBFCC5CEC /* DateFormatters.swift */; };
+		5D360A6DB44FA241EF579D44 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016618FF0A2D1C902DFF8921 /* User.swift */; };
+		5E38542AD1AB5138FF3D2646 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD7D3CE22DE2598AE71111D /* RegisterView.swift */; };
+		5F6C0B648A1302CAD3BE3F3B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F240AE5F51A2192C28AA8784 /* HomeView.swift */; };
+		64F843C62DD33F7D8C4AFD82 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B018C23C35BDCD659AB6F673 /* AppError.swift */; };
+		65D3F14144ACA644580BC140 /* VehicleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE341AAE8735A59554F98F4D /* VehicleRow.swift */; };
+		6CE2A6610135ED080047018D /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133107E5B1AF6DB468F4F85D /* PaymentMethod.swift */; };
+		6E8D1319F02345AE12CA73EA /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C28DCCA739A3DE0F0B2F069 /* WalletView.swift */; };
+		7685AC935754635A22DC9675 /* AddMoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF794F3F5F2263902DF2B62 /* AddMoneyView.swift */; };
+		7722245B63728B029F6FDF46 /* ParkingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC4F41BD3C1AC563D277CC2 /* ParkingCard.swift */; };
+		7912B67A35DE270CCACE2F6A /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F35224A5EE4EB007FCAB77 /* ViewState.swift */; };
+		7AA563DAB0C05911AC219373 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FF5892F4652BC3F398538A /* Vehicle.swift */; };
+		7BFEBAFBA5D7873E8CC3CD06 /* BookingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EAE5E2EB27176D31240B4E /* BookingFlowView.swift */; };
+		7E81ED1E6D0ECECA642DFE88 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00839C929E6AB3CC0ECF6FD /* MainTabView.swift */; };
+		8036F0948478622A8B8702A0 /* SuccessToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB34E7CA84D996BFD18E106 /* SuccessToast.swift */; };
+		8B3FD6752329FFB34A531A49 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3A2AE021E18AFDA916251 /* Theme.swift */; };
+		8FF09E5A31F4AC4F676CC865 /* WalletViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CB4738F6CAF680568B7681 /* WalletViewModel.swift */; };
+		9148EE9690A9BCCDD778CA4F /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A46C9059CEDE605D1710DAA /* EditProfileViewModel.swift */; };
+		9287C19A8961816AC34A755D /* AuthCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5D5C3ABBDAED20ED53DDC7 /* AuthCopy.swift */; };
+		986BFE69833CD581D77BE674 /* StatChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B0F095E25BFB73F0250FF8 /* StatChip.swift */; };
+		9962F456F5CF68F56D9D5DEC /* ParkingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0814E8C884D553BCAE75478C /* ParkingListViewModel.swift */; };
+		9A282A8765611F48A1CA9E1B /* ParkingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E85B832AFEF5FDAC2257BA /* ParkingListView.swift */; };
+		9D3C439D7B083853CB4AA6CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD0FAFE2401EB17A6E37AB5E /* Assets.xcassets */; };
+		9E480DA7DD8615C766083A19 /* BookingStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF945355AB1081E5840758BD /* BookingStep.swift */; };
+		9F5EBD8FEAD1FE1997040E3F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420EDBE4806623C0154F8638 /* OnboardingView.swift */; };
+		9F89D30B378696B7CEF3AFAA /* FlowAmenities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAB493D59D3830CCA686E2 /* FlowAmenities.swift */; };
+		A6A8D7F3E23EC520973A206A /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD26713F736832E9B8788A /* AuthViewModel.swift */; };
+		A6B7257506B3CFBAF17DD376 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A254A5642B9A2ADB15AB28 /* RootView.swift */; };
+		A6CA77FFAACBD34236C2FA90 /* ParkingDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E6BFDFF25D07E230FD92DE /* ParkingDetailsView.swift */; };
+		A8078198784DFC8797F0BD01 /* ParkingPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFCE3B221C14E8D5E3FFCF8 /* ParkingPassView.swift */; };
+		ABB3FAE3C35F7B351A92CE6C /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F28AD67D8E09419D6CFD9 /* SplashView.swift */; };
+		ABF5DB0B74CCA523B790FF2C /* WalletTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC28FE9FC69E380118A833A /* WalletTransaction.swift */; };
+		AF9F5274843404C500B40FB2 /* WalletStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70EE2E74C4A475C1F32263D /* WalletStore.swift */; };
+		AFA4B1DCB934494082E41F47 /* HelpSupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF235965FAB841522C63842 /* HelpSupportView.swift */; };
+		B20DC7352D87CD2DE0E0C989 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D66C1C0259FDFAF4232A426 /* ForgotPasswordView.swift */; };
+		B7DA8D457BE8F013B29887AF /* MockVehicleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0147F38991354A594A4CF986 /* MockVehicleRepository.swift */; };
+		B9A4AE787AF674E19540761C /* BookingConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF5C41EF3DB8283C01E6F5 /* BookingConfirmationView.swift */; };
+		BBEA7674E48313123674ED67 /* BookingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908642DBB637CFD587E56FF5 /* BookingRow.swift */; };
+		BE078482CC612CC09A599F65 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AEFBC205FB7428AC8DC80D /* Haptics.swift */; };
+		C1CCCC5BF29E7746C0917CB9 /* SignOutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292DA7E28C4763DAA637003D /* SignOutViewModel.swift */; };
+		C76FE0AF0196382F198E6632 /* MyBookingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4437345B1BB909A3ADD056FD /* MyBookingsView.swift */; };
+		CBE718DF39DA561E71004518 /* VehicleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518D8FF3AFD2CD2B13A95A15 /* VehicleListView.swift */; };
+		CC420642169718CA1973B9CF /* MockAuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2BBEB05146E676A48623ED /* MockAuthRepository.swift */; };
+		CC4B77E0DF72A41325353E24 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F4E55D9FC8F58FD442EB6F /* LoginView.swift */; };
+		CC9B32DE81C9ABB90F8C27C8 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB92682C6551F12A00FCB12A /* DIContainer.swift */; };
+		CD0CD013560D31FF629E9936 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAF72F0BD492A81ADD0CB44 /* ProfileView.swift */; };
+		CE58029ED3BB094CD65DF2A9 /* ParkingPassEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7CAC642987CAA3DB45F0AD /* ParkingPassEntryView.swift */; };
+		CF0D87E0772F539A8ED2AEF0 /* MockBookingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489D11EEB6B08476F5D402E5 /* MockBookingRepository.swift */; };
+		D02EA8B177679B2D3B4CA643 /* MockParkingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E4493F6049773B087E7A9B /* MockParkingRepository.swift */; };
+		D47EA99DA596DB85719EB75D /* VehicleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BDEC4D7B54FDE34D4AAC46 /* VehicleListViewModel.swift */; };
+		D6B3470B99A57627995CCE26 /* BookingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517CC42845F35162A80F7911 /* BookingStatus.swift */; };
+		DC857BC6280A4D065197E8A4 /* BookingsSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D3BA62C57F6A447370D648 /* BookingsSync.swift */; };
+		DCA15324E666F1B6F69F4775 /* VehicleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA00E5C5C47F3F480AACB9D /* VehicleType.swift */; };
+		E13F71D5CC25584D76D8081C /* QRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D26B4C2AE2CD15B6A396C4 /* QRCodeGenerator.swift */; };
+		E408381468D9CFF35EF633CD /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4786003F4A9A4DED3E4B87D /* PrimaryButton.swift */; };
+		EB5F41D3A8E784F54E1AA57A /* ParkingPassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554CC3ADDDAC6CC893D72A2 /* ParkingPassViewModel.swift */; };
+		EE4E9FB2D54C6D0EF7543471 /* ParkingSortOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170BDAAEE270C4E15B67CDAD /* ParkingSortOption.swift */; };
+		FB78077044431F59B6579326 /* AuthFormControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C1835D7E7AEFD5EAA42E16 /* AuthFormControls.swift */; };
+		FE24A608F1906181E26CD5C2 /* FavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B630F3F4A4D6E5D806A2C01 /* FavouritesView.swift */; };
+		FEC3198F08AA5F5D6DC29382 /* SessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE7EC836498BA4EC9931F82 /* SessionService.swift */; };
+		FECA1780BA50FBCD9AD8B7A7 /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4999F6FD0F619DA5A9DFDF0A /* Booking.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0147F38991354A594A4CF986 /* MockVehicleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockVehicleRepository.swift; sourceTree = "<group>"; };
+		016618FF0A2D1C902DFF8921 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		047C74D342B12D5547363671 /* ParkingPassEntryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingPassEntryViewModel.swift; sourceTree = "<group>"; };
+		055630370D82919EC157933A /* MockDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataStore.swift; sourceTree = "<group>"; };
+		0814E8C884D553BCAE75478C /* ParkingListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingListViewModel.swift; sourceTree = "<group>"; };
+		08E85B832AFEF5FDAC2257BA /* ParkingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingListView.swift; sourceTree = "<group>"; };
+		0A5D5C3ABBDAED20ED53DDC7 /* AuthCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCopy.swift; sourceTree = "<group>"; };
+		0C28DCCA739A3DE0F0B2F069 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		0C8A74C325118D362C62A449 /* ParkingDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingDetailsViewModel.swift; sourceTree = "<group>"; };
+		0E2BBEB05146E676A48623ED /* MockAuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAuthRepository.swift; sourceTree = "<group>"; };
+		133107E5B1AF6DB468F4F85D /* PaymentMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
+		170BDAAEE270C4E15B67CDAD /* ParkingSortOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingSortOption.swift; sourceTree = "<group>"; };
+		1A46C9059CEDE605D1710DAA /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
+		20F35224A5EE4EB007FCAB77 /* ViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewState.swift; sourceTree = "<group>"; };
+		26D71EED216D4FF5FA15085A /* ParkingLot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLot.swift; sourceTree = "<group>"; };
+		292DA7E28C4763DAA637003D /* SignOutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignOutViewModel.swift; sourceTree = "<group>"; };
+		29E4493F6049773B087E7A9B /* MockParkingRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockParkingRepository.swift; sourceTree = "<group>"; };
+		2B9C9DC29A665D7C35A75B1C /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		2CCD26713F736832E9B8788A /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		331A8B1A5FD58D3E3FF688F9 /* GuestRestriction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestRestriction.swift; sourceTree = "<group>"; };
+		35BDEC4D7B54FDE34D4AAC46 /* VehicleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleListViewModel.swift; sourceTree = "<group>"; };
+		38B5A7640A96869AC30A34B2 /* ParkingSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingSlot.swift; sourceTree = "<group>"; };
+		3A1F28AD67D8E09419D6CFD9 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		401CA7184EB7FC4F81195A39 /* VehicleFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleFormViewModel.swift; sourceTree = "<group>"; };
+		420EDBE4806623C0154F8638 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		43ADEFEABECB2EDC0E686639 /* MockUserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserRepository.swift; sourceTree = "<group>"; };
+		43B22D1BAAD8B080B22350F1 /* BookingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDetailView.swift; sourceTree = "<group>"; };
+		4437345B1BB909A3ADD056FD /* MyBookingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookingsView.swift; sourceTree = "<group>"; };
+		489D11EEB6B08476F5D402E5 /* MockBookingRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBookingRepository.swift; sourceTree = "<group>"; };
+		4999F6FD0F619DA5A9DFDF0A /* Booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
+		4B630F3F4A4D6E5D806A2C01 /* FavouritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesView.swift; sourceTree = "<group>"; };
+		4BC28FE9FC69E380118A833A /* WalletTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTransaction.swift; sourceTree = "<group>"; };
+		4DFF5C41EF3DB8283C01E6F5 /* BookingConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingConfirmationView.swift; sourceTree = "<group>"; };
+		517CC42845F35162A80F7911 /* BookingStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingStatus.swift; sourceTree = "<group>"; };
+		518D8FF3AFD2CD2B13A95A15 /* VehicleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleListView.swift; sourceTree = "<group>"; };
+		51E6BFDFF25D07E230FD92DE /* ParkingDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingDetailsView.swift; sourceTree = "<group>"; };
+		58903AC176C29B4D8D6E59F6 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		59DAB493D59D3830CCA686E2 /* FlowAmenities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowAmenities.swift; sourceTree = "<group>"; };
+		5A797CAFCE5FB2953608FD17 /* BookingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingsViewModel.swift; sourceTree = "<group>"; };
+		5AD7D3CE22DE2598AE71111D /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		5D81BB8BD15CD16F4FE0F38E /* VehicleFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleFormView.swift; sourceTree = "<group>"; };
+		611A4A43675686E0660C91E8 /* SmartParking.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SmartParking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F4E55D9FC8F58FD442EB6F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6A7CAC642987CAA3DB45F0AD /* ParkingPassEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingPassEntryView.swift; sourceTree = "<group>"; };
+		6FF235965FAB841522C63842 /* HelpSupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpSupportView.swift; sourceTree = "<group>"; };
+		73B0F095E25BFB73F0250FF8 /* StatChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatChip.swift; sourceTree = "<group>"; };
+		73CB4738F6CAF680568B7681 /* WalletViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewModel.swift; sourceTree = "<group>"; };
+		756A1144EF988C3FE43F7CBD /* RepositoryProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryProtocols.swift; sourceTree = "<group>"; };
+		8AB34E7CA84D996BFD18E106 /* SuccessToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessToast.swift; sourceTree = "<group>"; };
+		8BF794F3F5F2263902DF2B62 /* AddMoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMoneyView.swift; sourceTree = "<group>"; };
+		908642DBB637CFD587E56FF5 /* BookingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingRow.swift; sourceTree = "<group>"; };
+		90C3A2AE021E18AFDA916251 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		90D26B4C2AE2CD15B6A396C4 /* QRCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGenerator.swift; sourceTree = "<group>"; };
+		93E7A62A8DF063F6E0C7D2FC /* AddMoneyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMoneyViewModel.swift; sourceTree = "<group>"; };
+		97E7B7F459368CF31E0F4BB0 /* SignOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignOutView.swift; sourceTree = "<group>"; };
+		9D66C1C0259FDFAF4232A426 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		9EC4F41BD3C1AC563D277CC2 /* ParkingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingCard.swift; sourceTree = "<group>"; };
+		A00839C929E6AB3CC0ECF6FD /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		A2FEE8F9F2F4BDC28C2BB803 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		A554CC3ADDDAC6CC893D72A2 /* ParkingPassViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingPassViewModel.swift; sourceTree = "<group>"; };
+		A7EAE5E2EB27176D31240B4E /* BookingFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingFlowView.swift; sourceTree = "<group>"; };
+		ABAF72F0BD492A81ADD0CB44 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		AE416DABD9159BCBBFCC5CEC /* DateFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatters.swift; sourceTree = "<group>"; };
+		B018C23C35BDCD659AB6F673 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		BD0FAFE2401EB17A6E37AB5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDA00E5C5C47F3F480AACB9D /* VehicleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleType.swift; sourceTree = "<group>"; };
+		BE341AAE8735A59554F98F4D /* VehicleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleRow.swift; sourceTree = "<group>"; };
+		BFFCE3B221C14E8D5E3FFCF8 /* ParkingPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingPassView.swift; sourceTree = "<group>"; };
+		C4786003F4A9A4DED3E4B87D /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		C4A254A5642B9A2ADB15AB28 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		C57417A1C59B2AF969E87A02 /* SmartParkingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartParkingApp.swift; sourceTree = "<group>"; };
+		C8E63D25F5B9D1E939AF7455 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		CB92682C6551F12A00FCB12A /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
+		CF4DCD3A3EC9FBFDB77676B5 /* AvailabilityBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityBadge.swift; sourceTree = "<group>"; };
+		D9FF5892F4652BC3F398538A /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		DBE7EC836498BA4EC9931F82 /* SessionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionService.swift; sourceTree = "<group>"; };
+		DF945355AB1081E5840758BD /* BookingStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingStep.swift; sourceTree = "<group>"; };
+		E2AEFBC205FB7428AC8DC80D /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		E41036592D46D528E3088AD9 /* AvailabilityStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityStatus.swift; sourceTree = "<group>"; };
+		E58E917C1BF68921448490E5 /* AuthShell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthShell.swift; sourceTree = "<group>"; };
+		E6597DC88717AB3D2E418F69 /* BookingFlowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingFlowViewModel.swift; sourceTree = "<group>"; };
+		F159634D44ABA6B87F95FD67 /* AuthContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthContainerView.swift; sourceTree = "<group>"; };
+		F240AE5F51A2192C28AA8784 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F28180983680F5B99E072C50 /* StateViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateViews.swift; sourceTree = "<group>"; };
+		F2C1835D7E7AEFD5EAA42E16 /* AuthFormControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFormControls.swift; sourceTree = "<group>"; };
+		F3D3BA62C57F6A447370D648 /* BookingsSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingsSync.swift; sourceTree = "<group>"; };
+		F474761AAD399530231CDD1A /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		F70EE2E74C4A475C1F32263D /* WalletStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1511C5301CA52E81E1451BFF /* Bookings */ = {
+			isa = PBXGroup;
+			children = (
+				4DFF5C41EF3DB8283C01E6F5 /* BookingConfirmationView.swift */,
+				43B22D1BAAD8B080B22350F1 /* BookingDetailView.swift */,
+				A7EAE5E2EB27176D31240B4E /* BookingFlowView.swift */,
+				4437345B1BB909A3ADD056FD /* MyBookingsView.swift */,
+			);
+			path = Bookings;
+			sourceTree = "<group>";
+		};
+		172E875BE54EB878CACE9611 /* Vehicles */ = {
+			isa = PBXGroup;
+			children = (
+				5D81BB8BD15CD16F4FE0F38E /* VehicleFormView.swift */,
+				518D8FF3AFD2CD2B13A95A15 /* VehicleListView.swift */,
+			);
+			path = Vehicles;
+			sourceTree = "<group>";
+		};
+		1797EBDAF9D89E0D3F8C53A2 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				F159634D44ABA6B87F95FD67 /* AuthContainerView.swift */,
+				9D66C1C0259FDFAF4232A426 /* ForgotPasswordView.swift */,
+				65F4E55D9FC8F58FD442EB6F /* LoginView.swift */,
+				5AD7D3CE22DE2598AE71111D /* RegisterView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		1B2769FF9A201017EF975A75 /* Parking */ = {
+			isa = PBXGroup;
+			children = (
+				51E6BFDFF25D07E230FD92DE /* ParkingDetailsView.swift */,
+				08E85B832AFEF5FDAC2257BA /* ParkingListView.swift */,
+			);
+			path = Parking;
+			sourceTree = "<group>";
+		};
+		210A7FD5BA0582A1E4AD75B4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				93E7A62A8DF063F6E0C7D2FC /* AddMoneyViewModel.swift */,
+				2CCD26713F736832E9B8788A /* AuthViewModel.swift */,
+				E6597DC88717AB3D2E418F69 /* BookingFlowViewModel.swift */,
+				5A797CAFCE5FB2953608FD17 /* BookingsViewModel.swift */,
+				1A46C9059CEDE605D1710DAA /* EditProfileViewModel.swift */,
+				A2FEE8F9F2F4BDC28C2BB803 /* HomeViewModel.swift */,
+				0C8A74C325118D362C62A449 /* ParkingDetailsViewModel.swift */,
+				0814E8C884D553BCAE75478C /* ParkingListViewModel.swift */,
+				047C74D342B12D5547363671 /* ParkingPassEntryViewModel.swift */,
+				A554CC3ADDDAC6CC893D72A2 /* ParkingPassViewModel.swift */,
+				2B9C9DC29A665D7C35A75B1C /* ProfileViewModel.swift */,
+				292DA7E28C4763DAA637003D /* SignOutViewModel.swift */,
+				401CA7184EB7FC4F81195A39 /* VehicleFormViewModel.swift */,
+				35BDEC4D7B54FDE34D4AAC46 /* VehicleListViewModel.swift */,
+				73CB4738F6CAF680568B7681 /* WalletViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		373620C1CD1D5994D26BED0D /* SmartParking */ = {
+			isa = PBXGroup;
+			children = (
+				BD0FAFE2401EB17A6E37AB5E /* Assets.xcassets */,
+				55E17740E1FA98213B7A1177 /* App */,
+				AE31FF8CF3DD0125CB0C9CAE /* Components */,
+				E9ED0B44A637143C39DE8945 /* Models */,
+				E5C62956EAEE9F09B608F3F2 /* Repositories */,
+				47A6C5DA4F03108B7EEBE99B /* Services */,
+				F087E8F2FA5C257B570FC53C /* Utilities */,
+				210A7FD5BA0582A1E4AD75B4 /* ViewModels */,
+				5AB9CEF1B6D40F924BF7ABAA /* Views */,
+			);
+			path = SmartParking;
+			sourceTree = "<group>";
+		};
+		42CA5E68BDF672BB1D374375 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C8E63D25F5B9D1E939AF7455 /* EditProfileView.swift */,
+				4B630F3F4A4D6E5D806A2C01 /* FavouritesView.swift */,
+				6FF235965FAB841522C63842 /* HelpSupportView.swift */,
+				ABAF72F0BD492A81ADD0CB44 /* ProfileView.swift */,
+				97E7B7F459368CF31E0F4BB0 /* SignOutView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		47A6C5DA4F03108B7EEBE99B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F3D3BA62C57F6A447370D648 /* BookingsSync.swift */,
+				055630370D82919EC157933A /* MockDataStore.swift */,
+				DBE7EC836498BA4EC9931F82 /* SessionService.swift */,
+				F70EE2E74C4A475C1F32263D /* WalletStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		53A5B6A8993E144F08666CDE /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				8BF794F3F5F2263902DF2B62 /* AddMoneyView.swift */,
+				0C28DCCA739A3DE0F0B2F069 /* WalletView.swift */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		55E17740E1FA98213B7A1177 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F474761AAD399530231CDD1A /* AppState.swift */,
+				CB92682C6551F12A00FCB12A /* DIContainer.swift */,
+				C4A254A5642B9A2ADB15AB28 /* RootView.swift */,
+				C57417A1C59B2AF969E87A02 /* SmartParkingApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5AB9CEF1B6D40F924BF7ABAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1797EBDAF9D89E0D3F8C53A2 /* Auth */,
+				1511C5301CA52E81E1451BFF /* Bookings */,
+				D2B9721F5965D1E261C19C05 /* Home */,
+				7B5C0FD47A32282539936883 /* Main */,
+				E3A2AF77A3A7F12745789C93 /* Onboarding */,
+				1B2769FF9A201017EF975A75 /* Parking */,
+				DC06FAC7A0135D15AAE9ECE8 /* Pass */,
+				42CA5E68BDF672BB1D374375 /* Profile */,
+				D74C2E7B5DA7789E49474A62 /* Splash */,
+				172E875BE54EB878CACE9611 /* Vehicles */,
+				53A5B6A8993E144F08666CDE /* Wallet */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7B5C0FD47A32282539936883 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A00839C929E6AB3CC0ECF6FD /* MainTabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AE31FF8CF3DD0125CB0C9CAE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CF4DCD3A3EC9FBFDB77676B5 /* AvailabilityBadge.swift */,
+				908642DBB637CFD587E56FF5 /* BookingRow.swift */,
+				58903AC176C29B4D8D6E59F6 /* CustomTabBar.swift */,
+				59DAB493D59D3830CCA686E2 /* FlowAmenities.swift */,
+				331A8B1A5FD58D3E3FF688F9 /* GuestRestriction.swift */,
+				9EC4F41BD3C1AC563D277CC2 /* ParkingCard.swift */,
+				C4786003F4A9A4DED3E4B87D /* PrimaryButton.swift */,
+				73B0F095E25BFB73F0250FF8 /* StatChip.swift */,
+				F28180983680F5B99E072C50 /* StateViews.swift */,
+				8AB34E7CA84D996BFD18E106 /* SuccessToast.swift */,
+				BE341AAE8735A59554F98F4D /* VehicleRow.swift */,
+				B472648B7DC1E7B22CD8E9E8 /* Auth */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B472648B7DC1E7B22CD8E9E8 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				F2C1835D7E7AEFD5EAA42E16 /* AuthFormControls.swift */,
+				E58E917C1BF68921448490E5 /* AuthShell.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		D2B9721F5965D1E261C19C05 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F240AE5F51A2192C28AA8784 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D51C60AF84C83D39F30BD155 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				E41036592D46D528E3088AD9 /* AvailabilityStatus.swift */,
+				517CC42845F35162A80F7911 /* BookingStatus.swift */,
+				DF945355AB1081E5840758BD /* BookingStep.swift */,
+				170BDAAEE270C4E15B67CDAD /* ParkingSortOption.swift */,
+				BDA00E5C5C47F3F480AACB9D /* VehicleType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		D74C2E7B5DA7789E49474A62 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				3A1F28AD67D8E09419D6CFD9 /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		DC06FAC7A0135D15AAE9ECE8 /* Pass */ = {
+			isa = PBXGroup;
+			children = (
+				6A7CAC642987CAA3DB45F0AD /* ParkingPassEntryView.swift */,
+				BFFCE3B221C14E8D5E3FFCF8 /* ParkingPassView.swift */,
+			);
+			path = Pass;
+			sourceTree = "<group>";
+		};
+		E3A2AF77A3A7F12745789C93 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				420EDBE4806623C0154F8638 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		E5C62956EAEE9F09B608F3F2 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				0E2BBEB05146E676A48623ED /* MockAuthRepository.swift */,
+				489D11EEB6B08476F5D402E5 /* MockBookingRepository.swift */,
+				29E4493F6049773B087E7A9B /* MockParkingRepository.swift */,
+				43ADEFEABECB2EDC0E686639 /* MockUserRepository.swift */,
+				0147F38991354A594A4CF986 /* MockVehicleRepository.swift */,
+				756A1144EF988C3FE43F7CBD /* RepositoryProtocols.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		E9E9FFF14B9E24F701B137F3 = {
+			isa = PBXGroup;
+			children = (
+				373620C1CD1D5994D26BED0D /* SmartParking */,
+				EC56AD477F0622673053240E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9ED0B44A637143C39DE8945 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4999F6FD0F619DA5A9DFDF0A /* Booking.swift */,
+				26D71EED216D4FF5FA15085A /* ParkingLot.swift */,
+				38B5A7640A96869AC30A34B2 /* ParkingSlot.swift */,
+				133107E5B1AF6DB468F4F85D /* PaymentMethod.swift */,
+				016618FF0A2D1C902DFF8921 /* User.swift */,
+				D9FF5892F4652BC3F398538A /* Vehicle.swift */,
+				4BC28FE9FC69E380118A833A /* WalletTransaction.swift */,
+				D51C60AF84C83D39F30BD155 /* Enums */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC56AD477F0622673053240E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				611A4A43675686E0660C91E8 /* SmartParking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F087E8F2FA5C257B570FC53C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B018C23C35BDCD659AB6F673 /* AppError.swift */,
+				0A5D5C3ABBDAED20ED53DDC7 /* AuthCopy.swift */,
+				AE416DABD9159BCBBFCC5CEC /* DateFormatters.swift */,
+				E2AEFBC205FB7428AC8DC80D /* Haptics.swift */,
+				90D26B4C2AE2CD15B6A396C4 /* QRCodeGenerator.swift */,
+				90C3A2AE021E18AFDA916251 /* Theme.swift */,
+				20F35224A5EE4EB007FCAB77 /* ViewState.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48D9989AE3559A98C33BF3D1 /* SmartParking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB8E5C0F5B51BF107BBD891 /* Build configuration list for PBXNativeTarget "SmartParking" */;
+			buildPhases = (
+				1936574D75A338FA80416E8C /* Sources */,
+				8F2642D9D24432A2CBE715F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartParking;
+			packageProductDependencies = (
+			);
+			productName = SmartParking;
+			productReference = 611A4A43675686E0660C91E8 /* SmartParking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40FD470C737EB69B3A841C86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 068F429FC585BA5E95935F29 /* Build configuration list for PBXProject "SmartParking" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = E9E9FFF14B9E24F701B137F3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EC56AD477F0622673053240E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48D9989AE3559A98C33BF3D1 /* SmartParking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F2642D9D24432A2CBE715F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D3C439D7B083853CB4AA6CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1936574D75A338FA80416E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7685AC935754635A22DC9675 /* AddMoneyView.swift in Sources */,
+				15A6AD56FADA743F6FA45F2E /* AddMoneyViewModel.swift in Sources */,
+				64F843C62DD33F7D8C4AFD82 /* AppError.swift in Sources */,
+				421E523B9D0D201E5B849835 /* AppState.swift in Sources */,
+				0CB15F65DFDBB4CC827FAC77 /* AuthContainerView.swift in Sources */,
+				9287C19A8961816AC34A755D /* AuthCopy.swift in Sources */,
+				FB78077044431F59B6579326 /* AuthFormControls.swift in Sources */,
+				2DD82346C86F09AFBA94E7D6 /* AuthShell.swift in Sources */,
+				A6A8D7F3E23EC520973A206A /* AuthViewModel.swift in Sources */,
+				3837D5AE04AD76E48A181A4D /* AvailabilityBadge.swift in Sources */,
+				0B1477E8997CC6587835137A /* AvailabilityStatus.swift in Sources */,
+				FECA1780BA50FBCD9AD8B7A7 /* Booking.swift in Sources */,
+				B9A4AE787AF674E19540761C /* BookingConfirmationView.swift in Sources */,
+				43CEB6A9B848995D79BA40A2 /* BookingDetailView.swift in Sources */,
+				7BFEBAFBA5D7873E8CC3CD06 /* BookingFlowView.swift in Sources */,
+				40E34753BBFB2E0F7184E631 /* BookingFlowViewModel.swift in Sources */,
+				BBEA7674E48313123674ED67 /* BookingRow.swift in Sources */,
+				D6B3470B99A57627995CCE26 /* BookingStatus.swift in Sources */,
+				9E480DA7DD8615C766083A19 /* BookingStep.swift in Sources */,
+				DC857BC6280A4D065197E8A4 /* BookingsSync.swift in Sources */,
+				017FAC70DF4812C79661521C /* BookingsViewModel.swift in Sources */,
+				1F1831A908A92B019812F4B2 /* CustomTabBar.swift in Sources */,
+				CC9B32DE81C9ABB90F8C27C8 /* DIContainer.swift in Sources */,
+				540EF8B7333F01F0C15BAD00 /* DateFormatters.swift in Sources */,
+				0025AF706664B07DF424B303 /* EditProfileView.swift in Sources */,
+				9148EE9690A9BCCDD778CA4F /* EditProfileViewModel.swift in Sources */,
+				FE24A608F1906181E26CD5C2 /* FavouritesView.swift in Sources */,
+				9F89D30B378696B7CEF3AFAA /* FlowAmenities.swift in Sources */,
+				B20DC7352D87CD2DE0E0C989 /* ForgotPasswordView.swift in Sources */,
+				4400E729C8DE377EFD9EDD7B /* GuestRestriction.swift in Sources */,
+				BE078482CC612CC09A599F65 /* Haptics.swift in Sources */,
+				AFA4B1DCB934494082E41F47 /* HelpSupportView.swift in Sources */,
+				5F6C0B648A1302CAD3BE3F3B /* HomeView.swift in Sources */,
+				31B837CF95B30EA01A94CD49 /* HomeViewModel.swift in Sources */,
+				CC4B77E0DF72A41325353E24 /* LoginView.swift in Sources */,
+				7E81ED1E6D0ECECA642DFE88 /* MainTabView.swift in Sources */,
+				CC420642169718CA1973B9CF /* MockAuthRepository.swift in Sources */,
+				CF0D87E0772F539A8ED2AEF0 /* MockBookingRepository.swift in Sources */,
+				2E92D5F3FC9D4D0A3984E503 /* MockDataStore.swift in Sources */,
+				D02EA8B177679B2D3B4CA643 /* MockParkingRepository.swift in Sources */,
+				478E975BE73DB2E14A9F79CA /* MockUserRepository.swift in Sources */,
+				B7DA8D457BE8F013B29887AF /* MockVehicleRepository.swift in Sources */,
+				C76FE0AF0196382F198E6632 /* MyBookingsView.swift in Sources */,
+				9F5EBD8FEAD1FE1997040E3F /* OnboardingView.swift in Sources */,
+				7722245B63728B029F6FDF46 /* ParkingCard.swift in Sources */,
+				A6CA77FFAACBD34236C2FA90 /* ParkingDetailsView.swift in Sources */,
+				0CE35CD5A83D01D4605962CC /* ParkingDetailsViewModel.swift in Sources */,
+				9A282A8765611F48A1CA9E1B /* ParkingListView.swift in Sources */,
+				9962F456F5CF68F56D9D5DEC /* ParkingListViewModel.swift in Sources */,
+				0EB77BB3F30A9C503F365E08 /* ParkingLot.swift in Sources */,
+				CE58029ED3BB094CD65DF2A9 /* ParkingPassEntryView.swift in Sources */,
+				3BEC9C8BD435AA6FD27F5C37 /* ParkingPassEntryViewModel.swift in Sources */,
+				A8078198784DFC8797F0BD01 /* ParkingPassView.swift in Sources */,
+				EB5F41D3A8E784F54E1AA57A /* ParkingPassViewModel.swift in Sources */,
+				19C05CAAC64B339DA753E45E /* ParkingSlot.swift in Sources */,
+				EE4E9FB2D54C6D0EF7543471 /* ParkingSortOption.swift in Sources */,
+				6CE2A6610135ED080047018D /* PaymentMethod.swift in Sources */,
+				E408381468D9CFF35EF633CD /* PrimaryButton.swift in Sources */,
+				CD0CD013560D31FF629E9936 /* ProfileView.swift in Sources */,
+				1D6EAA73C212FD3765FDF0D2 /* ProfileViewModel.swift in Sources */,
+				E13F71D5CC25584D76D8081C /* QRCodeGenerator.swift in Sources */,
+				5E38542AD1AB5138FF3D2646 /* RegisterView.swift in Sources */,
+				133485AE2F139ECCA28294C8 /* RepositoryProtocols.swift in Sources */,
+				A6B7257506B3CFBAF17DD376 /* RootView.swift in Sources */,
+				FEC3198F08AA5F5D6DC29382 /* SessionService.swift in Sources */,
+				065B8B5E1E400C2111F87A80 /* SignOutView.swift in Sources */,
+				C1CCCC5BF29E7746C0917CB9 /* SignOutViewModel.swift in Sources */,
+				4903422A09A1B78A77CEDED2 /* SmartParkingApp.swift in Sources */,
+				ABB3FAE3C35F7B351A92CE6C /* SplashView.swift in Sources */,
+				986BFE69833CD581D77BE674 /* StatChip.swift in Sources */,
+				16EE2274648A9F0AC4871F2D /* StateViews.swift in Sources */,
+				8036F0948478622A8B8702A0 /* SuccessToast.swift in Sources */,
+				8B3FD6752329FFB34A531A49 /* Theme.swift in Sources */,
+				5D360A6DB44FA241EF579D44 /* User.swift in Sources */,
+				7AA563DAB0C05911AC219373 /* Vehicle.swift in Sources */,
+				0D928C2893E4524533F4EFB5 /* VehicleFormView.swift in Sources */,
+				21B21520CA8B26623D3ACD2C /* VehicleFormViewModel.swift in Sources */,
+				CBE718DF39DA561E71004518 /* VehicleListView.swift in Sources */,
+				D47EA99DA596DB85719EB75D /* VehicleListViewModel.swift in Sources */,
+				65D3F14144ACA644580BC140 /* VehicleRow.swift in Sources */,
+				DCA15324E666F1B6F69F4775 /* VehicleType.swift in Sources */,
+				7912B67A35DE270CCACE2F6A /* ViewState.swift in Sources */,
+				AF9F5274843404C500B40FB2 /* WalletStore.swift in Sources */,
+				ABF5DB0B74CCA523B790FF2C /* WalletTransaction.swift in Sources */,
+				6E8D1319F02345AE12CA73EA /* WalletView.swift in Sources */,
+				8FF09E5A31F4AC4F676CC865 /* WalletViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2E86062A182F513248FB682D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Smart Parking";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartparking.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		500368AA88DBC93B031601C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Smart Parking";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartparking.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B6EC165DE495DA41A433734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C77229081DEAFEDC4517BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		068F429FC585BA5E95935F29 /* Build configuration list for PBXProject "SmartParking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				500368AA88DBC93B031601C1 /* Debug */,
+				2E86062A182F513248FB682D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CDB8E5C0F5B51BF107BBD891 /* Build configuration list for PBXNativeTarget "SmartParking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C77229081DEAFEDC4517BCA /* Debug */,
+				8B6EC165DE495DA41A433734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40FD470C737EB69B3A841C86 /* Project object */;
+}
